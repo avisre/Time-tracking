@@ -1,0 +1,198 @@
+main{
+    background-color:hsl(226, 43%, 10%);
+    height: 1000px;
+    width: 100vw;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    box-sizing:border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+
+    
+}
+.ondru{
+    display: flex;
+    flex-direction: column;
+    
+   width: 170px;
+     height: 260px;
+    background-color:   hsl(246, 80%, 60%);
+   color: white;
+    position: relative;
+    left: 400px;
+ border-radius: 8px;
+ 
+    }
+    .randru{
+        background-color: hsl(235, 46%, 20%);
+        color:  hsl(236, 100%, 87%);
+
+        padding:10px ;
+     
+     }
+     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .one, .two,.three,.four,.five,.six{
+   
+    position: relative;
+
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid hsl(226, 43%, 10%);
+    margin-left: 30px;
+    
+width: 160px;
+    height: 120px;
+    }
+.uno,.dos,.dres,.onu,.randu,.munu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+bottom: 20px;
+    height: 700px;
+    padding-left: 15px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:hsl(235, 46%, 20%) ;
+    
+
+}
+h1,h2{
+    color: white;
+}
+p{margin-top: 0;
+    color: hsl(236, 100%, 87%);
+}
+h1{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: 300;
+
+}
+h2{
+    font-size:9px;
+    margin-bottom: 0px;
+    
+    
+
+}
+
+
+.the{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 20px;
+    right: 190px;
+    
+}
+.yen{
+    display: flex;
+    flex-direction: row;
+  position: relative;
+  left: 379px;
+  bottom: 170px;
+}
+
+.one{
+    background-color:hsl(15, 100%, 70%);
+}
+.two{
+    background-color:hsl(195, 74%, 62%)
+}
+.three{
+    background-color:hsl(348, 100%, 68%);
+}
+
+.four{ background-color:hsl(145, 58%, 55%);
+
+}
+.five{
+    background-color: hsl(264, 64%, 52%);
+}
+
+.six{
+    background-color:hsl(43, 84%, 65%);
+}
+
+
+#w{
+    width: 50px;
+    position: relative;
+        bottom: 8px;
+        left: 90px;
+    }
+    #p{
+        width: 50px;
+        position: relative;
+            bottom: 8px;
+            left: 90px;
+
+    }
+    #s{
+        width: 50px;
+        position: relative;
+            bottom: 8px;
+            left: 90px;
+    }
+    #e{
+        width: 70px;
+        
+        position: relative;
+            bottom: 8px;
+            left: 70px;
+    }
+    #so{
+        width: 40px;
+        position: relative;
+            bottom: 6px;
+            left: 110px;
+    }
+    #se{
+        width: 50px;
+        position: relative;
+            bottom: 8px;
+            left: 90px;
+    }
+    a{
+        position: relative;
+        left: 110px;
+        bottom: 20px;
+        
+    }
+    #j{
+        
+        width: 60px;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin: 16px;
+        
+    }
+    .kk{
+        padding-left: 30px;
+        margin-bottom: 0;
+    }
