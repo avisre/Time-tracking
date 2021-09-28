@@ -1,125 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
+main{
+    background-color:hsl(226, 43%, 10%);
+    height: 1440px;
+    width: 1440px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+.ondru{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 330px;
+    bottom: 45px;
+    width: 400px;
+    height: 340px;
+   background-color:   hsl(246, 80%, 60%);
+   color: white;
+   position: relative;
+  border-radius: 13px;
+  
+    
+  
+}
+.kk{
+    margin-left: 30px;
+}
+
+    .randru{display:flex;
+        flex-direction: column;
+        padding: 20px 0  20px 30px;
+        width: 200px;
+        height: 150px;
+        background-color: hsl(235, 46%, 20%);
+        color:  hsl(236, 100%, 87%);
+justify-content: space-around;
+position: relative;
+top: 90px;
+border-radius:0px 0px 10px 10px;
+
+    }
+    .weekly{
+        color: white;
+    }
+
+     .yen
+     {
+         display: flex;
+         flex-direction: row;
+         position: relative;
+         left: 350px;
+         bottom: 100px;
+         
+         
+     }
+
+     .the{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 140px;
+        right: 420px;
+
+     }
+     
+ 
 
 
-    <title>Document</title>
-    <link rel="stylesheet" href="Untitled-2.css">
-</head>
+.one, .two,.three,.four,.five,.six{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin: 1rem;
+    width: 14rem;
+    height: 13rem;
+  border-radius: 10px 10px 0px 0px;
+    border: 1px solid hsl(226, 43%, 10%);
+  }
 
-<body>
-    <main>
+.uno,.dos,.dres,.onu,.randu,.munu{
+    display: flex;
+    flex-direction: column;
+    height: 23rem;
+    padding: 1rem 0 0 2rem;
+   
+    border-radius: 10px 10px 10px 10px;
+    background-color:hsl(235, 46%, 20%) ;
+    }
 
-        <section class="ondru">
-            <img src="images/image-jeremy.png" alt="image-jeremy" id="j">
+h1,h2{
+    color: white;
+}
+p{  
+    
+    color: hsl(236, 100%, 87%);
+}
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: 300;
 
-            <p class="kk">Report for</p>
-            <h1 class="kk">Jeremy Robson</h1>
+}
+h2{
+    font-size:18px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    
+    
+
+}
+
+
+
+
+.one{
+    background-color:hsl(15, 100%, 70%);
+}
+.two{
+    background-color:hsl(195, 74%, 62%)
+}
+.three{
+    background-color:hsl(348, 100%, 68%);
+}
+
+.four{ background-color:hsl(145, 58%, 55%);
+
+}
+.five{
+    background-color: hsl(264, 64%, 52%);
+}
+
+.six{
+    background-color:hsl(43, 84%, 65%);
+}
+
+
+#w{
+    width: 30px;
+    position: relative;
+        bottom: px;
+        left: 150px;
+    }
+    #p{
+        width: 30px;
+        position: relative;
+            bottom: px;
+            left: 180px;
+
+    }
+    #s{
+        width: 30px;
+        position: relative;
+            bottom: px;
+            left: 180px;
+    }
+    #e{
+        width: 50px;
         
-            <div class="randru">
-                <div class="Daily"> Daily</div>
-                <div class="weekly">Weekly</div>
-                <div class="monthly">Monthly</div>
-            </div>
-        </section>
-            
+        position: relative;
+            bottom: 8px;
+            left: 70px;
+    }
+    #so{
+        width: 25px;
+        position: relative;
+            bottom: ;
+            left: 180px;
+    }
+    #se{
+        width: 30px;
+        position: relative;
+            bottom: 2px;
+            left: 180px;
+    }
+    a{
+        position: relative;
+        left: 145px;
+        bottom: 20px;
         
+    }
+    #j{
+        
+        width: 70px;
+        border: 4px solid white;
+       margin:20px 0 10px 30px;
+       border-radius: 50%;
+        
+    }
+ 
+    .Daily:hover,.monthly:hover{
+        color:white;
+        cursor: pointer;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="yen">
-            <div class="one">
-                <img src="images/icon-work.svg" alt="image of suitcase" id="w">
-                <div class="uno">
-                    <h2>Work</h2>
-                    <a href="#work"><img src="./images/icon-ellipsis.svg" alt="dots" /></a>
-                    <h1>32hrs</h1>
-                    <p>Last Week-36hrs</p>
-                </div>
-            </div>
-
-            <div class="two">
-                <img src="images/icon-play.svg" alt="image of suitcase" id="p">
-                <div class="dos">
-                    <h2>Play</h2>
-                    <a href="#work"><img src="./images/icon-ellipsis.svg" alt="dots" /></a>
-                    <h1>10hrs</h1>
-                    <p>Last Week-8hrs</p>
-                </div>
-            </div>
-
-            <div class="three">
-                <img src="images/icon-study.svg" alt="image of suitcase" id="s">
-                <div class="dres">
-                    <h2>Study</h2>
-                    <a href="#work"><img src="./images/icon-ellipsis.svg" alt="dots" /></a>
-                    <h1>4hrs</h1>
-                    <p>Last Week-7hrs</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="the">
-            <div class="four">
-                <img src="images/icon-exercise.svg" alt="image of suitcase" id="e">
-                <div class="onu">
-                    <h2>Exercise</h2>
-                    <a href="#work"><img src="./images/icon-ellipsis.svg" alt="dots" /></a>
-                    <h1>4hrs</h1>
-                    <p>Last Week-5hrs</p>
-                </div>
-            </div>
-
-            <div class="five">
-                <img src="images/icon-social.svg" alt="image of suitcase" id="so">
-                <div class="randu">
-                    <h2>Social</h2>
-                    <a href="#work"><img src="./images/icon-ellipsis.svg" alt="dots" /></a>
-                    <h1>5hrs</h1>
-                    <p>Last Week-10hrs</p>
-                </div>
-            </div>
-
-            <div class="six">
-                <img src="images/icon-self-care.svg" alt="image of suitcase" id="se">
-                <div class="munu">
-                    <h2>Self care</h2>
-                    <a href="#work"><img src="./images/icon-ellipsis.svg" alt="dots" /></a>
-                    <h1>2hrs</h1>
-                    <p>Last Week-2hrs</p>
-                </div>
-            </div>
-        </div>
-    </main>
-</body>
-
-</html>
+    .uno:hover, .dos:hover ,.dres:hover,.onu:hover,.randu:hover,.munu:hover{
+        background-color:#34397b;
+        cursor: pointer;
+    }
