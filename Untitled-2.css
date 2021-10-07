@@ -1,0 +1,230 @@
+body{
+  
+    background-color:hsl(226, 43%, 10%);
+     font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+   
+    max-width: 1440px;
+   margin-top: 5rem;
+    
+    
+    
+   }
+   main{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       height: 300px;
+       
+       
+    
+   }
+
+.ondru{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    
+        width: 200px;
+    height: 300px;
+   background-color:   hsl(246, 80%, 60%);
+   color: white;
+   position: relative;
+
+        right: -10rem;
+        padding: 20px 0px 0px 0px;
+   border-radius:10px 10px 12px 12px;
+  
+   
+    
+  
+}
+.kk{
+    margin-left: 30px;
+}
+
+    .randru{display: block;
+        padding: 20px 0  20px 30px;
+        width: 170px;
+        height: 100px;
+        background-color: hsl(235, 46%, 20%);
+        color:  hsl(236, 100%, 87%);
+justify-content: space-around;
+position: relative;
+top: 75px;
+
+   
+
+
+
+
+border-radius:0px 0px 10px 10px;
+
+
+    }
+    .weekly{
+        color: white;
+    }
+
+     .yen
+     {
+         display: flex;
+         flex-direction: row;
+        align-self:flex-start ;
+        position: relative;
+        right: -13rem;
+      
+        
+         
+     }
+
+     .the{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        position: relative;
+        right: 35rem;
+       
+        
+       
+
+     }
+     
+ 
+
+
+.one, .two,.three,.four,.five,.six{
+   
+    
+    display: flex;
+    flex-direction: column;
+  
+
+    
+margin: 1rem;
+    width: 14rem;
+    height: 3rem;
+  border-radius: 10px 10px 0px 0px;
+    border: 1px solid hsl(226, 43%, 10%);
+    /* overflow: hidden; */
+    
+  }
+
+.work,.play,.study,.exercise,.social,.selfcare{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    background-color:hsl(235, 46%, 20%) ;
+    height: 20rem;
+    padding-left: 30px;
+   
+    }
+
+h1,h2{
+    color: white;
+}
+p{  
+    
+    color: hsl(236, 100%, 87%);
+}
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: 300;
+
+}
+h2{
+    font-size:18px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    
+    
+
+}
+
+
+
+
+.one{
+    background-color:hsl(15, 100%, 70%);
+}
+.two{
+    background-color:hsl(195, 74%, 62%)
+}
+.three{
+    background-color:hsl(348, 100%, 68%);
+}
+
+.four{ background-color:hsl(145, 58%, 55%);
+
+}
+.five{
+    background-color: hsl(264, 64%, 52%);
+}
+
+.six{
+    background-color:hsl(43, 84%, 65%);
+}
+
+
+#w,#p,#s, #se{
+    display: flex;
+    align-self: flex-end ;
+    margin-right: 30px;
+    width: 30px;
+}
+
+
+#e{
+    display: flex;
+    align-self: flex-end ;
+    margin-right: 30px;
+    width: 40px;
+}
+#so{
+    display: flex;
+    align-self: flex-end ;
+    margin-right: 30px;
+    width: 20px;
+}
+
+
+
+    #j{
+        
+        width: 70px;
+        border: 4px solid white;
+     margin-left: 30px;   
+     
+       border-radius: 50%;
+        
+    }
+    a{
+        position: relative;
+left: 9rem;
+
+    }
+ 
+   .Daily:hover,.monthly:hover{
+        color:white;
+        cursor: pointer;
+    }
+
+.uno:hover, .dos:hover ,.dres:hover,.onu:hover,.randu:hover,.munu:hover{
+        background-color:#34397b;
+        cursor: pointer;
+    }
+   
+    @media(max-width: 375px){
+        body{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 1440px;
+        }
+
+    }
+   
