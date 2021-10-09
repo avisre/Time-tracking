@@ -226,7 +226,8 @@ left: 9rem;
         cursor: pointer;
     }
    
-   @media(max-width: 1000px){
+  
+    @media(max-width: 1000px){
         body{
             display: flex;
             flex-direction: column;
@@ -239,16 +240,7 @@ left: 9rem;
                 height: 1400px;
             }
          
-.one, .two,.three,.four,.five,.six{
-   
-    
-    display: flex;
-    flex-direction: column;
-  width: 10rem;
-    height: 2.1rem;
-  border-radius: 10px 10px 0px 0px;
-    border: 1px solid hsl(226, 43%, 10%);
-   }
+
    p,h1,h2{
        font-size: 10px;
    }
@@ -258,60 +250,46 @@ left: 2.5rem;
 
 }
 
-.work,.play,.study,.exercise,.social,.selfcare{
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px 10px 10px 10px;
-    background-color:hsl(235, 46%, 20%) ;
-    height: 8rem;
-    /* padding:10px 0px 10px 30px; */
-    
-}
+
 .yen
      {
-
          display: flex;
          flex-direction: column;
-        align-self:flex-start ;
+        /* align-self:flex-start ; */
         position: relative;
         right: -13rem;
         top: 10rem;
-      
-        
-         
-     }
+       }
 
      .the{
         display: flex;
         flex-direction: column;
-        align-self: flex-end;
-        position: relative;
-        right: 3rem;
-        }
+       
+        
+    }
      
+
+        /* top card */
 .ondru{
     display: flex;
     flex-direction: row;
-    
-    
-        width:21rem ;
+     width:21rem ;
     height: 6rem;
-
    background-color:   hsl(246, 80%, 60%);
    color: white;
   align-self: flex-start;
   position: relative;
   bottom: 30rem;
 border-radius:10px 10px 12px 12px;
-
 }
+
 .randru{
     
     display: flex;
     flex-direction: row;
     position: relative;
     top: 6rem;
-    right: 14.8rem;
+    right: 16.2rem;
     height: 2rem;
     padding-left: 6rem;
     padding-right: 6rem;
@@ -325,3 +303,54 @@ border-radius:10px 10px 12px 12px;
     position: relative;
     left: 4rem;
 }
+  #je{
+      position: relative;
+      top: 2rem;
+      right: 4rem;
+      font-size:18px;
+    }
+    #j{
+        height: 4rem;
+}
+
+ 
+  
+/* work */
+.one{
+    position: relative;
+    bottom: 35rem;
+    right: 2rem;
+    width: 21rem;
+   
+}
+.two{
+    position: relative;
+    bottom: 30rem;
+    right: 2rem;
+    width: 21rem;
+}
+.three{
+    position: relative;
+    bottom: 25rem;
+    right: 2rem;
+    width: 21rem;
+}
+
+.four{
+    position: relative;
+    bottom: 12rem;
+    left: 20.5rem;
+    width: 21rem;
+}    
+.five{
+    position: relative;
+    bottom: 7rem;
+    left: 20.5rem;
+    width: 21rem;
+} 
+.six{
+    position: relative;
+    bottom: 2.2rem;
+    left: 20.5rem;
+    width: 21rem;
+} 
