@@ -8,9 +8,8 @@ body{
     max-width: 1440px;
    margin-top: 5rem;
     
-    
-    
    }
+
    main{
        display: flex;
        flex-direction: row;
@@ -18,10 +17,10 @@ body{
        align-items: center;
        height: 300px;
        
-       
-    
-   }
+ }
 
+
+/* first column */
 .ondru{
     display: flex;
     flex-direction: column;
@@ -49,7 +48,7 @@ body{
 p{
     
 }
-
+/*  first column second block */
     .randru{display: block;
         line-height: 2;
         padding: 20px 0  20px 30px;
@@ -74,6 +73,7 @@ border-radius:0px 0px 10px 10px;
         color: white;
     }
 
+/* 1st row grouping(work, play, study) */
      .yen
      {
 
@@ -86,6 +86,8 @@ border-radius:0px 0px 10px 10px;
         
          
      }
+
+/* 2nd grouping(exercise, social,selfcare) */
 
      .the{
         display: flex;
@@ -101,24 +103,20 @@ border-radius:0px 0px 10px 10px;
      }
      
  
-
-
+/* 
+styling of the 1st row */
 .one, .two,.three,.four,.five,.six{
-   
-    
     display: flex;
     flex-direction: column;
-  
-
-    
-margin: 1rem;
+    margin: 1rem;
     width: 14rem;
     height: 3rem;
-  border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     border: 1px solid hsl(226, 43%, 10%);
-   
-    
   }
+
+/* 
+styling of the 2nd row */
 
 .work,.play,.study,.exercise,.social,.selfcare{
     display: flex;
@@ -153,8 +151,8 @@ h2{
 
 }
 
-
-
+/* 
+adding unique background colors */
 
 .one{
     background-color:hsl(15, 100%, 70%);
@@ -212,10 +210,11 @@ h2{
     }
     a{
         position: relative;
-left: 9rem;
+       left: 9rem;
+}
 
-    }
- 
+/* hover functionalities
+  */
    .Daily:hover,.monthly:hover{
         color:white;
         cursor: pointer;
@@ -225,7 +224,8 @@ left: 9rem;
         background-color:#34397b;
         cursor: pointer;
     }
-   
+/*    
+responsive functions */
   
     @media(max-width: 1000px){
         body{
