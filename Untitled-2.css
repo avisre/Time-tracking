@@ -545,6 +545,7 @@ left: 2.5rem;
 margin-left:30%;
 position: relative;
 bottom: 3rem;
+font-size: 18px;
 
 }
 #jk{
@@ -590,4 +591,15 @@ left: 2.5rem;
             width: 21rem;
         }
  
+        .Daily{
+            position: relative;
+            right: 3rem;
+
+        }
+        .monthly{position: relative;
+            left: 3rem;
+        }
+        
+
+        ]
 }
