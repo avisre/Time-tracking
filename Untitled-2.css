@@ -505,7 +505,7 @@ left: 2.5rem;
             display: flex;
             flex-direction: column;
             width:21rem ;
-            height: 6rem;
+            height: 6.9rem;
            
            
              background-color:   hsl(246, 80%, 60%);
@@ -527,6 +527,7 @@ left: 2.5rem;
             display: flex;
             flex-direction: row;
             position: relative;
+            
 
             
             padding: 10px 70px 10px 66.8px;
@@ -591,7 +592,7 @@ left: 2.5rem;
       
         }
         .one, .two,.three,.four,.five,.six{
-            width: 21rem;
+            width: 21.3rem;
             height: 5rem;
         }
  
