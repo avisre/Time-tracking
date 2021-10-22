@@ -5,8 +5,9 @@ body{
     display: flex;
     flex-direction: row;
     max-width: 100vw;
-    min-height: 125rem;
+    min-height: 86rem;
     align-items: center;
+    
     
     
    }
@@ -41,6 +42,7 @@ body{
     
   
 }
+/* inner text first column */
 .kk{
     margin-left: 30px;
     
