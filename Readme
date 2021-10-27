@@ -23,17 +23,16 @@
 
 
 ### What I learned
-Alternative way to center divs using transform translateX-50%.   
-
-
-
+Alternative way to center divs using transform translateX-50%. Also realized that position-relative has limits and that it wont work in all cases. 
+Also learnt that positioning a div is directly dependent on the height and with of the parent. 
+Finally incorporated max-width and vw and vh to solve the issue.  
 
 
 
 
 ### Continued development
 
-I hope to reduce the time and increase the accuracy of my projects as I go along  my coding journey. 
+I hope to reduce the time and increase the accuracy of my projects as I go along  my coding journey. Also want to learn css Grid so that i can arrange my layout faster. 
 
 
 
