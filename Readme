@@ -24,8 +24,10 @@
 
 ### What I learned
 Alternative way to center divs using transform translateX-50%. Also realized that position-relative has limits and that it wont work in all cases. 
-Also learnt that positioning a div is directly dependent on the height and with of the parent. 
-Finally incorporated max-width and vw and vh to solve the issue.  
+Also learnt that structuring elements in a page is directly dependent on the height and with of the parent. If you set it too small for instance less than 500px, 
+when you enlarge the viewing distance in bigger screen sizes the specs will not appear as you planned originally.
+But i learnt that this problem can be easily fixed by using max-width:100vw and min-height:100vh.
+ 
 
 
 
@@ -37,7 +39,8 @@ I hope to reduce the time and increase the accuracy of my projects as I go along
 
 
 
-*
+### Shout Out:
+@Grace Snow and JuveriaD from Front-End mentor for helping me out with the Min-height max-width properties. It helped me complete the project in a reasonable time-frame.
 
 ## Author
 
