@@ -549,18 +549,18 @@ left: 2.5rem;
     }
 
 #je{
-margin-left:30%;
-position: relative;
-bottom: 3rem;
+
 font-size: 18px;
 
 }
-#jk{
-margin-left:30%;
-position: relative;
-bottom: 3rem;
 
+.kk {
+    margin-left: 30px;
+    position: relative;
+    bottom: 60px;
+    left: 80px;
 }
+
 p,h1,h2{
    font-size: 10px;
 }
