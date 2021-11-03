@@ -509,19 +509,11 @@ left: 2.5rem;
             flex-direction: column;
             width:21rem ;
             height: 6.9rem;
-           
-           
-             background-color:   hsl(246, 80%, 60%);
+            background-color:   hsl(246, 80%, 60%);
            color: white;
            position:relative;
            right: -24rem;
-        
-      
-           
-         
-           
-          
-        border-radius:10px 10px 12px 12px;
+           border-radius:10px 10px 12px 12px;
         }
 
         
@@ -530,18 +522,12 @@ left: 2.5rem;
             display: flex;
             flex-direction: row;
             position: relative;
-            
-
-            
-            padding: 10px 70px 10px 66.8px;
-       
-            
-           
-           
+            top: -2.8rem;
+       padding: 10px 70px 10px 66.8px;
     }
      
     #j {
-        width: 50px;
+        width: 70px;
         border: 4px solid white;
         margin-left: 30px;
         border-radius: 50%;
@@ -550,15 +536,21 @@ left: 2.5rem;
 
 #je{
 
-font-size: 18px;
+font-size: 23px;
+position: relative;
+    bottom: 200px;
 
+}
+#jk{
+    font-size: 16px;
+    position: relative;
+    bottom: 80px;
 }
 
 .kk {
-    margin-left: 30px;
-    position: relative;
-    bottom: 60px;
-    left: 80px;
+position: relative;
+left: 30px;    
+
 }
 
 p,h1,h2{
@@ -619,14 +611,19 @@ left: 2.5rem;
         }
         h1{
             font-size: 29px;
+            position: relative;
+            top: 12px;
         }
         h2{
             font-size: 15px;
+            font-weight: 450;
+            position: relative;
+            top: 18px;
         }
 
 
         .work,.play,.study,.exercise,.social,.selfcare{
-            padding: 0px 10px 0px 15px;
+            padding: 0px 0px 0px 18px;
         }
         
 }
