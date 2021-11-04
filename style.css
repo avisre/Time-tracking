@@ -1,3 +1,4 @@
+
 body{
   
     background-color: hsl(226, 43%, 10%);
@@ -538,7 +539,7 @@ left: 2.5rem;
 
 font-size: 23px;
 position: relative;
-    bottom: 200px;
+    bottom: 89px;
 
 }
 #jk{
@@ -611,8 +612,6 @@ left: 2.5rem;
         }
         h1{
             font-size: 29px;
-            position: relative;
-            top: 12px;
         }
         h2{
             font-size: 15px;
@@ -621,9 +620,12 @@ left: 2.5rem;
             top: 18px;
         }
 
+       
 
         .work,.play,.study,.exercise,.social,.selfcare{
             padding: 0px 0px 0px 18px;
         }
         
 }
+
+   
