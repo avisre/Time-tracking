@@ -236,7 +236,7 @@ responsive functions */
             display: flex;
             flex-direction: column;
             max-width: 100vw;
-            height: 70rem;
+           min-height: 70rem;
                 
                
             }
@@ -347,8 +347,6 @@ left: 2.5rem;
 
 
   
-
- 
 .one{
     position: relative;
    bottom: 10rem;
@@ -393,118 +391,21 @@ left: 2.5rem;
 
 
 @media(max-width: 670px){
-    body {
+    
+   body{
         display: flex;
         flex-direction: column;
         max-width: 100vw;
-        height: 100rem;
-       align-items: center;
-    }
-        main{
-            display: flex;
-            
-            
-          }
-
-        .ondru{
-            display: flex;
-            flex-direction: column;
-            width:20rem ;
-            height: 6rem;
-           align-self: center;
-             background-color:   hsl(246, 80%, 60%);
-           color: white;
-           position: relative;
-           top: -6rem;
-           
-          
-        border-radius:10px 10px 12px 12px;
-        }
-
-        
-        .randru{
-            
-            display: flex;
-            flex-direction: row;
-
-            position: relative;
-            padding: 10px 60px 10px 60px;
-            top: -1rem;
-           
-           
-    }
-     
-    #j {
-        width: 50px;
-        border: 4px solid white;
-        margin-left: 30px;
-        border-radius: 50%;
-       
-    }
-
-#je{
-margin-left:30%;
-position: relative;
-bottom: 3rem;
-
-}
-#jk{
-margin-left:30%;
-position: relative;
-bottom: 3rem;
-
-}
-p,h1,h2{
-   font-size: 10px;
-}
-a{
-position: relative;
-left: 2.5rem;
-
-}
-
-
-.yen,.the
- {
-     display: flex;
-     flex-direction: column;
-   
-   
-     }
-
-     .yen {
-        position: relative;
-         top: 23rem;
-        left: -10rem;
-
-}
-
-    .the{
-        align-self: flex-end;
-        position: relative;
-        right: 10rem;
-        top: 50rem;
-      
-        
-    }
-    body{
-        display: flex;
-        flex-direction: column;
-        max-width: 100vw;
-        height: 120vh;
+        min-height: 100vh;
         align-items: center;
-        
-            
-           
+        justify-content: center;
         }
+
         main{
             display: flex;
          
-            
-            
-          
-          
-    }
+             }
+
         .ondru{
             display: flex;
             flex-direction: column;
@@ -514,6 +415,7 @@ left: 2.5rem;
            color: white;
            position:relative;
            right: -24rem;
+           top: -13rem;
            border-radius:10px 10px 12px 12px;
         }
 
@@ -540,18 +442,20 @@ left: 2.5rem;
 font-size: 23px;
 position: relative;
     bottom: 89px;
+    right: -23px;
 
 }
 #jk{
     font-size: 16px;
     position: relative;
     bottom: 80px;
+    right: -23px;
 }
 
-.kk {
-position: relative;
-left: 30px;    
 
+.kk {
+    position: relative;
+    top: -80px;
 }
 
 p,h1,h2{
@@ -575,7 +479,7 @@ left: 2.5rem;
      .yen {
        
         position: relative;
-         top: 22rem;
+         top: 16rem;
         left: 2rem;
         
 
@@ -584,7 +488,7 @@ left: 2.5rem;
     .the{
        position: relative;
         right: 21.4rem;
-        top: 60rem;
+        top: 53.9rem;
       
         }
         .one, .two,.three,.four,.five,.six{
