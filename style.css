@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: row;
     min-width: 100vw;
-height: 86rem;
+    min-height: 86rem;
     align-items: center;
     justify-content: center;
  transform: translateX(50%);
